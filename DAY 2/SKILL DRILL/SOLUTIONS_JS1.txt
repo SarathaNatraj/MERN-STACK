@@ -1,0 +1,27 @@
+2.   function changeColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+   
+3. function setGreeting() {
+	const hour = new Date().getHours();
+            let greeting = '';
+
+            if (hour < 12) {
+                greeting = 'Good Morning!';
+            } else if (hour < 18) {
+                greeting = 'Good Afternoon!';
+            } else {
+                greeting = 'Good Evening!';
+            }
+
+            document.getElementById('greeting').textContent = greeting;
+       
+}
+4.   function toggleContent() {
+            const content = document.getElementById('content');
+            if (content.style.display === 'none' || content.style.display === '') {
+                content.style.display = 'block';
+            } else {
+                content.style.display = 'none';
+            }
+        }
