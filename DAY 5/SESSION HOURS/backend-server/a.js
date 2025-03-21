@@ -1,0 +1,1 @@
+console.log(" From a js file");
